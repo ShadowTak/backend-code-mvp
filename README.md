@@ -11,9 +11,12 @@
 | ไฟล์ | เนื้อหา |
 |---|---|
 | [`project.md`](./project.md) | **เอกสารหลัก** — โค้ด 5 ฟีเจอร์อุดช่องโหว่ + ผลลัพธ์ก่อน/หลัง |
-| [`requirements-specification.md`](./requirements-specification.md) | ความต้องการของระบบ (FR / NFR / ลำดับความสำคัญ) |
-| [`acceptance-criteria.md`](./acceptance-criteria.md) | เกณฑ์ยอมรับแบบ Given/When/Then + ผลทดสอบจริง |
-| [`database-design.md`](./database-design.md) | การออกแบบฐานข้อมูล (ERD, ตารางใหม่, index, query) |
+| [`requirements-specification.md`](./requirements-specification.md) | ความต้องการของระบบ (FR / NFR / ลำดับความสำคัญ) — อ้างอิง endpoint จริง 143 รายการ |
+| [`acceptance-criteria.md`](./acceptance-criteria.md) | เกณฑ์ยอมรับแบบ Given/When/Then + ผลทดสอบจริง — อ้างอิง endpoint จริง |
+| [`database-design.md`](./database-design.md) | การออกแบบฐานข้อมูล (ERD, ตารางใหม่, index, query) — อ้างอิง schema จริง |
+
+> 📌 **เอกสารทั้งหมดอ้างอิง API จริง** (`siam-u-line-welcome-production.up.railway.app/api-docs/`) —
+> endpoint 143 รายการ และ schema จริง (students, employees, young, otp_codes, sms_transactions, game_scores) |
 
 ## 🎯 5 ฟีเจอร์
 
